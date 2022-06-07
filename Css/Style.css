@@ -270,7 +270,8 @@ border-width: 0.02%;
 #Conteudo_par_Titulo_serviços{
   background: #EEEEEE;
   width: 80%;
-   height:100%;
+   height:90%;
+   margin-top: 2%;
    margin-left: 7%;
    border-radius: 5%;
    /*background: pink;*/
@@ -396,7 +397,7 @@ background: #AAAAAA;
    margin-bottom: -1%;
    margin-top: 20%;
   width: 40%;
-    height:20%;
+    height:25%;
     /*background: #FF00FF;*/
     /*background: linear-gradient(darkgray, black);*/
     background: #FFFFFF;
@@ -407,7 +408,7 @@ background: #AAAAAA;
    padding: 5px 0;  
    margin-bottom: -1%;
    margin-top: 0;
-  width: 25%;
+   width: 25%;
     height:130%;
     left: 0;
     /*background: #FF00FF;*/
@@ -655,7 +656,9 @@ img.titulo{
       text-decoration: none;
       color: white;
       height: 3.44em;
-      line-height: 3;}
+      line-height: 3;
+      margin-top: -5%;
+    }
 
       a:hover {
         color: black;
