@@ -700,6 +700,18 @@ h3.rodape{
   color: white;
 }
 
+@media(max-width: 200px){  
+
+    a {
+      font-size: 2vw/*1.30vw*/;
+      
+    }
+      a.botao_Quem_somos{
+      background-color: blue;
+      
+    }
+}
+
 /*============================================================================================================*/
 
 * {
@@ -829,3 +841,7 @@ label:after {
 /**{box-sizing: border-box;}body{font-family:sans-serif;padding-top: 100px;width:100vw;background-color:#999;}*/
 
 
+
+
+
+ 
