@@ -1,13 +1,13 @@
 html{
-	padding: 0 0;
+  padding: 0 0;
 
 }
 header{
-	/*background-color:#682E86;*/
-	height:15%;
-	margin-top:0%;
-	padding: 0;
-	margin: 0;
+  /*background-color:#682E86;*/
+  height:15%;
+  margin-top:0%;
+  padding: 0;
+  margin: 0;
   background: rgb(192,192,192, 0.7);
 
 }
@@ -19,14 +19,14 @@ html, body {
 
 #header-wrap.Barra_Menu{
   padding: 0;
-	margin: 0;
-	width: 100%;
+  margin: 0;
+  width: 100%;
     height:20%;
     left: 0;
     bottom: 0;
     text-align: center;
-	align-content: center;
-	color: #ffffff;
+  align-content: center;
+  color: #ffffff;
     /*background: #682E78;*/
     background: rgb(255,255,255, 0.7);
     /*background: rgb(192,192,192, 0.7);*/
@@ -35,8 +35,8 @@ html, body {
 
 }
 #header-wrap.Barra_Suavização{
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
     top: 0;
     left: 0;
     width: 100%;
@@ -45,14 +45,14 @@ html, body {
     /*background: #FFFFFF;*/}
 
 #header-wrap.Barra_Titulo{
-	padding: 0;
-	width: 100%;
+  padding: 0;
+  width: 100%;
     height:40%;
     left: 0;
     bottom: 0;
     text-align: center;
-	align-content: center;
-	color: #ffffff;
+  align-content: center;
+  color: #ffffff;
     background: #BB2E78;
     display: flex;
     flex-wrap: wrap;
@@ -64,9 +64,9 @@ html, body {
 #Separador_Esq{
     Left:0;
   position:absolute;
-  width: 50%;
-  height:100%;
-   /*background: #FFEEFF;*/
+  width: 49.5vw;
+  height:99vh;
+  /* background: blue;*/
    /* background: linear-gradient(red, darkred);*/
     display: flex;
     flex-wrap: wrap;
@@ -92,8 +92,8 @@ html, body {
   padding: 0 0 ;
   right:0;
   position:absolute;
-  width: 50%;
-  height:100%;
+  width: 49.5vw;
+  height:99vh;
    /*background: #FFFFEE;*/
   /*background: linear-gradient(red, darkred);*/
     display: flex;
@@ -173,7 +173,7 @@ p.Carroussel{
 
 /*a{
 color: white;
-text-decoration: none;	
+text-decoration: none;  
 
 }
 a:hover {
@@ -196,11 +196,11 @@ border-width: 0.02%;
 
 
 #Conteudo_zero{
-	padding: 5px 0;	
-	align-content: center;
-	width: 100%;
+  padding: 5px 0; 
+  align-content: center;
+  width: 99.2vw;
 
-    height:70%;
+    height:73.5vh;
     left: 0;
    /* background: #FF0000;*/
     display: flex;
@@ -225,8 +225,8 @@ border-width: 0.02%;
 }
 
 #Conteudo_Impar{
-	padding: 5px 0;	
-	width: 100%;
+  padding: 5px 0; 
+  width: 100%;
     height:70%;
     left: 0;
      background: linear-gradient(red, darkred);
@@ -239,8 +239,8 @@ border-width: 0.02%;
 
 }
 #Conteudo_par{
-	padding: 5px 0;	
-	width: 100%;
+  padding: 5px 0; 
+  width: 99.6vw;
     height:70%;
     left: 0;
     /*background: #FF00FF;*/
@@ -269,8 +269,8 @@ border-width: 0.02%;
 /*================================================================*/
 #Conteudo_par_Titulo_serviços{
   background: #EEEEEE;
-  width: 80%;
-   height:90%;
+  width: 20vw;
+   height:65vh;
    margin-top: 2%;
    margin-left: 7%;
    border-radius: 5%;
@@ -282,8 +282,8 @@ border-width: 0.02%;
 }
 #Conteudo_par_Titulo_Vantagens{
 
-  width: 108%;
-  height: 20%;
+  width: 53.5vw;
+  height: 20vh;
   margin: 0;
   margin-left: 5%;
   padding: 0;
@@ -319,7 +319,7 @@ p.index{
 }
 
 a.botao{
-
+  margin-top: 0.05%;
   margin-left: 30%;
   background-color: red;
   width: 40%;
@@ -327,6 +327,20 @@ a.botao{
   color: white;
 }
 a.botao:hover{
+  color: white;
+  background-color: darkred;
+  text-decoration: underline;
+}
+a.botao_Quem_somos{
+  background-color: red;
+ /* margin-top: 55%;*/ 
+  margin-top: 60vh;
+  margin-left: 60%; 
+  padding-bottom: 10%;
+  height: 2.75vh;
+  width: 20vw;
+}
+a.botao_Quem_somos:hover{
   color: white;
   background-color: darkred;
   text-decoration: underline;
@@ -341,8 +355,8 @@ a.botao:hover{
 }
 #Conteudo_par_Vantagens_Icone{
   background: #EEEEEE;
-  width: 10%;
-   height:40%;
+  width: 4.1vw;
+   height:8vh;
    margin-left: 45%;
    margin-bottom: 2%;
    background-color: #FFFFFF;
@@ -352,7 +366,7 @@ a.botao:hover{
 
 #Conteudo_par_Titulo_Final{
   background: #CCCCCC;
-  width: 100%;
+  width:99.6vw;;
   height: 5%;
    /*background: pink;*/
    display: flex;
@@ -363,8 +377,8 @@ a.botao:hover{
 }
 #Conteudo_par_Titulo_Segmentos_Suerior{
   background: #EEEEEE;
-  width: 80%;
-   height:50%;
+  width: 20vw;
+   height:36vh;
    margin-left: 7%;
    border-radius: 5%;
    /*background: pink;*/
@@ -380,8 +394,8 @@ background: #AAAAAA;
 }
 #Conteudo_par_Titulo_Segmentos_inferior{
   background: #EEEEEE;
-  width: 80%;
-   height:50%;
+  width: 20vw;
+   height:36vh;
    margin-top: 2%;
    margin-left: 7%;
    border-radius: 5%;
@@ -394,10 +408,10 @@ background: #AAAAAA;
 }
 #Titulo_Servicos{
    padding: 5px 0;  
-   margin-bottom: -1%;
-   margin-top: 20%;
-  width: 40%;
-    height:25%;
+   margin-bottom: -1vh;
+   margin-top: 10vh;
+  width: 8vw;
+    height:16vh;
     /*background: #FF00FF;*/
     /*background: linear-gradient(darkgray, black);*/
     background: #FFFFFF;
@@ -406,10 +420,10 @@ background: #AAAAAA;
 }
 #Conteudo_par_Servicos1{
    padding: 5px 0;  
-   margin-bottom: -1%;
+   margin-bottom: -2vh;
    margin-top: 0;
-   width: 25%;
-    height:130%;
+   width: 25vw;
+    height:100vh;
     left: 0;
     /*background: #FF00FF;*/
     /*background: linear-gradient(darkgray, black);*/
@@ -418,42 +432,39 @@ background: #AAAAAA;
 
 }
 #Conteudo_par_Servicos2{
-   padding: 5px 0;  
-  width: 25%;
-    margin-bottom: -1%;
+ padding: 5px 0;  
+   margin-bottom: -2vh;
    margin-top: 0;
-  height:130%;
-    left: 25%;
+   width: 25vw;
+    height:100vh;
     /*background: #FF00FF;*/
     /*background: linear-gradient(darkgray, black);*/
     background: #CCCCCC;
-   
+   left: 25%;
 
 }
 #Conteudo_par_Servicos3{
-   padding: 5px 0;  
-  width: 25%;
-    margin-bottom: -1%;
+ padding: 5px 0;  
+   margin-bottom: -2vh;
    margin-top: 0;
-  height:130%;
-    left: 50%;
+   width: 25vw;
+    height:100vh;
     /*background: #FF00FF;*/
     /*background: linear-gradient(darkgray, black);*/
     background: #CCCCCC;
-   
+   left: 50%;
 
 }
 #Conteudo_par_Servicos4{
    padding: 5px 0;  
-  width: 25%;
-    margin-bottom: -1%;
+   margin-bottom: -2vh;
    margin-top: 0;
-height:130%;
-    left: 100%;
+   width: 25vw;
+    height:100vh;
     /*background: #FF00FF;*/
     /*background: linear-gradient(darkgray, black);*/
     background: #CCCCCC;
-    
+   left: 100%; 
 
 }
 /*================================================================*/
@@ -484,13 +495,13 @@ height:130%;
 }
 
 #Conteudo_contatos{
-	padding: 5px 0;	
-	/*width: 96%;*/
+  padding: 5px 0; 
+  /*width: 96%;*/
     height:67%;
     /*margin-top: 5%;
     margin-bottom: 2%;
- 	margin-left: 2%;
- 	margin-right: 2%;*/
+  margin-left: 2%;
+  margin-right: 2%;*/
     align-self: center;
     justify-content: center;
     left: 0;
@@ -505,13 +516,13 @@ height:130%;
 
 #Conteudo_Quem_somos{
 
-	padding: 5px 0;	
-	width: 100%;
+  padding: 5px 0; 
+  width: 100%;
     height:250%;
     margin-bottom: -1.5%;
     /*margin-top: 5%;
     margin-left: 2%;
- 	  margin-right: 2%;*/
+    margin-right: 2%;*/
     align-self: center;
     justify-content: center;
     left: 0;
@@ -539,10 +550,10 @@ height:130%;
 }
 
 #Conteudo_rodape{
-	margin: 0 0;
-	padding: 0px 0;	
-	width: 100%;
-    height:25%;
+  margin: 0 0;
+  padding: 0px 0; 
+  width: 99.6vw;
+    height:25vh;
     top: 0;
     left: 0;
     background: #212121;
@@ -552,9 +563,9 @@ height:130%;
 
 #header-wrap.fixed-header {
 
-	  padding: 0 7.5em;
+    padding: 0 7.5em;
     padding-top: 0.5em;
-	  margin: 0;
+    margin: 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -593,9 +604,9 @@ height:130%;
 .Headerinterno{
 
   display:inline;
-	/*margin-left: 45.05%;
-	align-content: center;*/
-	color: rgb(255, 255, 255, 1);
+  /*margin-left: 45.05%;
+  align-content: center;*/
+  color: rgb(255, 255, 255, 1);
 flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
@@ -648,7 +659,7 @@ img.titulo{
     }
 
     a {
-      font-size: calc(0.30em + 1vw) /*1.30vw*/;
+      font-size: 1.3vw/*1.30vw*/;
       font-family: 'Verdana';
       font-weight: bold;
       display: block;
@@ -816,3 +827,5 @@ label:after {
 
 //codepen用 reset
 /**{box-sizing: border-box;}body{font-family:sans-serif;padding-top: 100px;width:100vw;background-color:#999;}*/
+
+
