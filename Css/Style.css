@@ -700,7 +700,7 @@ h3.rodape{
   color: white;
 }
 
-@media(max-width: 200px){  
+@media(max-width: 600px){  
 
     a {
       font-size: 2vw/*1.30vw*/;
