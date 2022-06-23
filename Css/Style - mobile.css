@@ -83,7 +83,7 @@ html, body {
   position:absolute;
   width: 49.5vw;
   height:99vh;
-  /* background: blue;*/
+  /*background: blue;*/
    /* background: linear-gradient(red, darkred);*/
     display: flex;
     flex-wrap: wrap;
@@ -106,13 +106,16 @@ html, body {
     text-align: center;
 }
 #Separador_Dir{
-  padding: 0 0 ;
+  padding: 0 0;
   right:0;
   position:absolute;
-  width: 49.5vw;
-  height:99vh;
-  margin-top: -8vh;
-  margin-right: -5vh;
+  width: Calc( 40vh + 40vw );
+  height: Calc( 50vh + 50vw );
+  margin-top: Calc( 290vh + 290vw );
+  margin-right: Calc( -24vh + -24vw );
+padding-left: Calc( 1vh + 1vw );
+padding-right: Calc( 1vh + 1vw );
+
   /*background: #FFFFEE;*/
   /*background: linear-gradient(red, darkred);*/
     display: flex;
@@ -220,7 +223,7 @@ border-width: 0.02%;
   width: Calc( 44vh + 44vw );
     height:Calc( 60vh + 60vw );
     left: 0;
-    background: #FF00FF;
+   background: #CCCCCC;
     display: grid;
     grid-template-columns: 1fr 1fr;
     flex-wrap: wrap;
@@ -259,12 +262,13 @@ border-width: 0.02%;
 }
 #Conteudo_par{
   padding: 5px 0; 
-  height: Calc( 190vh + 190vw );
+  height: Calc( 220vh + 220vw );
   width: Calc( 44vh + 44vw );
   margin-top: Calc( -1vh + -1vw );
+
     left: 0;
     margin-bottom: Calc( 11.5vh + 11.5vw );
-    background-color: #FF00FF;
+    /*background-color: #FF00FF;
     /*background: linear-gradient(darkgray, black);*/
     display: grid;
     flex-wrap: wrap;
@@ -353,7 +357,7 @@ a.botao_Quem_somos:hover{
 #Conteudo_par_Vantagens_Titulo{
   width: Calc( 41.5vh + 41.5vw );
   height: Calc( 33vh + 33vw );
-
+margin-left: Calc( 0.3vh + 0.3vw );
   padding-top: 1%;
   border-left: -6%;
   border-radius: 5%;
@@ -361,9 +365,9 @@ a.botao_Quem_somos:hover{
 }
 #Conteudo_par_Vantagens_Icone{
   background: #EEEEEE;
-  width: 4.1vw;
-   height:8vh;
-   margin-left: 45%;
+  width: Calc( 10vh + 10vw );
+   height: Calc( 10vh + 10vw );
+   margin-left: Calc( 15vh + 15vw );
    margin-bottom: 2%;
    background-color: #FFFFFF;
    /*background: pink;*/
@@ -372,7 +376,7 @@ a.botao_Quem_somos:hover{
 
 #Conteudo_par_Titulo_Final{
   background: #CCCCCC;
-  width:99.6vw;;
+  width:Calc( 45vh + 45vw );
   height: 5%;
    /*background: pink;*/
    display: flex;
@@ -559,8 +563,8 @@ margin-bottom: Calc( -1.6vh + -1.6vw );
 #Conteudo_rodape{
   margin: 0 0;
   padding: 0px 0; 
-  width: 99.6vw;
-    height:25vh;
+  width: Calc( 45vh + 45vw );
+    height: Calc( 5vh + 5vw );
     top: 0;
     left: 0;
     background: #212121;
