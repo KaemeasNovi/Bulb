@@ -505,10 +505,20 @@ margin-bottom: Calc( -1.6vh + -1.6vw );
 
 }
 
+#Conteudo_Contatos_topo{
+  background-color: #364248;
+  margin-top: -2.5vh;
+  width: Calc( 21vh + 21vw );
+  height: 70vh;
+  padding-top: 2vh;
+}
+
 #Conteudo_contatos{
-  padding: 5px 0; 
+  padding: 5px 0;
+  padding-right: 0;
   /*width: 96%;*/
-    height:67%;
+    height: Calc( 25vh + 25vw );
+    width: : Calc( 5vh + 5vw );
     /*margin-top: 5%;
     margin-bottom: 2%;
   margin-left: 2%;
@@ -806,7 +816,7 @@ label {
   transition: transform 400ms ease-out;
   display: inline-block;
   min-height: 100%;
-  width: 100vw;
+  width: Calc( 44vh + 44vw );
   height: 20vh;
   position: relative;
   z-index: 1;
