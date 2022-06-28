@@ -1,5 +1,6 @@
 <html>
 	<link href="Css/Style.css" rel="stylesheet">
+	<link media="only screen and (max-device-width: 480px)" href="Css/Style - mobile.css" type="text/css" rel="stylesheet" />
 	<head>
 	  <link rel="icon" type="image/png" href="Imagens/icon.ico">
 	  <meta name="keywords" content="palavra1, frase um, palavra2, frase dois">
@@ -21,7 +22,7 @@
 			  </div>
 			</nav> -->
 		</div>	
-		<div  id="header-wrap" class="fixed-header_Menu">
+		<span class="desktop"><div  id="header-wrap" class="fixed-header_Menu">
 		<!--<header>Teste</header>-->
 			<div class="Headerinterno">
 				<ul class="list" style="font-family: 'Verdana';">
@@ -32,24 +33,42 @@
 				    </ul>
 				
 			</div>	
-		</div>
+		</div></span>
+		
 
 
 		<!--<div id="header-wrap" class="Barra_Menu">
 			<a href="C:/Users/novai/Desktop/BULB/Por que contratar.html">Beneficios do Rpa &nbsp;</a> <a href="C:/Users/novai/Desktop/BULB/Quem Somos.html">Quem somos?&nbsp;</a> <a href="C:/Users/novai/Desktop/BULB/Contatos.html">Contate-Nos&nbsp;</a>
 			
 		</div>--> 
+<span class="mobile">
+	
+            <div id="menuToggle">
+              <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            <ul id="menu">
+              <li><a class="Menu_botao" href="Index.html">Home</a></li>
+              <li><a class="Menu_botao" href="Por que contratar.html" style="margin-top: Calc( -10.5vh + -10.5vw)">Sobre o RPA</a></li>
+              <li><a class="Menu_botao" href="Quem Somos.html" style="margin-top: Calc( -16vh + -16vw)">Quem Somos?</a></li>
+              <li><a class="Menu_botao" href="Contatos.html" style="margin-top: Calc( -21.2vh + -21.2vw)">Contate-Nos</a></li>
+            </ul>
+           </div>
+          
+	</span>
 	</div>
 
-
-	<body>
+<span class="desktop">	
+<body>
 		<div id="header-wrap" class="Barra_Suavização">
 			
 		</div>
 			<div id="Conteudo_Quem_somos">
 				<div id="Quemsomoszero" style="background: linear-gradient(red, darkred);padding-left: 2%;padding-right: 2%; ">
-					<h1 style=" font-family: Garamond;font-size: 2.1vw; color: white;">Sobre nós...</h1>
-					<p style=" font-family: Garamond;font-size: 2vw; text-align: justify; color: whitesmoke;">
+					<h1 style=" font-family: Garamond;font-size: Calc( 1.7vh + 1.7vw ); color: white;">Sobre nós...</h1>
+					<p style=" font-family: Garamond;font-size: Calc( 1.3vh + 1.3vw ); text-align: justify; color: whitesmoke;">
 					A Bulb é uma empresa do ramo de tecnologia focada em automação de processos digitais. Criada recentemente, tem propósitos claros e objetivos devido a grande experiência de seus co-fundadores no mercado.
 					Entregamos soluções de diversos tipos como: automações prontas, automações novas (conforme necessidade dos parceiros), robôs como serviço, entre outros.
 					<b>A Bulb não foi criada por executivos, mas por desenvolvedores!</b></p>
@@ -83,7 +102,7 @@
 				</div>
 
 				<div id="Quemsomoszero" style="background-color: linear-gradient( #CCC,#BBB,#AAA);">
-					<p style=" font-family: Garamond;font-size: 2.1vw; color: black;"><b style="color: #996515;">Valores:</b> <br> Nossos valores consistem em três pilares: Organização, Confidencialidade e Dedicação. Para trabalhar com automação de dados, organização e segurança são tópicos primários para garantir que as informações que entram em um fluxo, saiam somente da forma que o usuário desejar, e para isso, em demandas simples e complexas, nos dedicamos para deixar os processos que entregamos da maneira que nossos parceiros sintam-se confiantes e confortáveis.</p>
+					<p style=" font-family: Garamond;font-size: Calc( 1.5vh + 1.5vw ); color: black;"><b style="color: #996515;">Valores:</b> <br> Nossos valores consistem em três pilares: Organização, Confidencialidade e Dedicação. Em automações de dados, organização é primordial para garantir que as informações que entram, saiam somente da forma que o usuário desejar, portanto, nos dedicamos para deixar os processos da maneira que nossos parceiros sintam-se confiantes e confortáveis.</p>
 					<div id="Separador_Esq_quemsomos">
 						
 						
@@ -156,9 +175,128 @@
 		
 		<div id="Conteudo_rodape">
 			<br>
-			<h2 class="rodape">Telefone: </h2><h3 class="rodape">(11)99999-9999</h3><br>
-			<h2 class="rodape">Email: </h2><h3 class="rodape">servicos@bulb.com</h3><br>
-			<h2 class="rodape">Endereço: </h2><h3 class="rodape">Rua dos Bulbos n° 543</h3><br>
+			
 		</div>
 	</body>
+	</span>
+
+	<span class="mobile">	
+	<body>
+		<div id="header-wrap" class="Barra_Suavização" >
+				
+		</div>
+			<div id="Conteudo_Quem_somos"style="width: Calc( 44vh + 44vw ); ">
+				<div id="Quemsomoszero" style="background: linear-gradient(red, darkred);padding-left: 2%;padding-right: 2%; ">
+					<h1 style=" font-family: Garamond;font-size: Calc( 2vh + 2vw ); margin-top: Calc( 2.8vh + 2.8vw ); color: white;">Sobre nós...</h1>
+					<p style=" font-family: Garamond;font-size: Calc( 1.5vh + 1.5vw ); text-align: justify; color: whitesmoke;">
+					A Bulb é uma empresa do ramo de tecnologia focada em automação de processos digitais. Criada recentemente, tem propósitos claros e objetivos devido a grande experiência de seus co-fundadores no mercado.
+					Entregamos soluções de diversos tipos como: automações prontas, automações novas (conforme necessidade dos parceiros), robôs como serviço, entre outros.
+					<b>A Bulb não foi criada por executivos, mas por desenvolvedores!</b></p>
+
+				</div>
+
+				<div id="Quemsomoszero" style="background-color: linear-gradient( #CCC,#BBB,#AAA);">
+					
+					<p style=" font-family: Garamond;font-size: Calc( 1.8vh + 1.8vw ); color:black;"><b style="color: #996515;">Missão:</b> <br> A nossa missão é proporcionar para nossos clientes uma verdadeira parceria, com o fornecimento de soluções de real impacto. Não basta para nós sermos fornecedores de automação, procuramos sempre fornecer empatia ouvindo as necessidades dos nossos clientes para entregar além de robôs, conforto e otimização dia após dia.</p>
+					
+					<div id="Separador_Esq_quemsomos">
+						
+						
+						
+					</div>
+					<div id="Separador_Dir_quemsomos">
+					
+					</div>
+				</div>
+
+				<div id="Quemsomoszero" style="background-color: linear-gradient( #CCC,#BBB,#AAA);">
+					<p style=" font-family: Garamond;font-size: Calc( 1.8vh + 1.8vw );  color: black;"><b style="color: #996515;">Visão:</b> <br> O mercado de tecnologia e automação é bem amplo, e entendemos que nesse contexto, todos possuem oportunidades de adquirirem esses benefícios de acordo com seus critérios e condições, é ai que entra nosso diferencial, tratamos cada cliente como único para entendermos como podemos ajudar em cada caso da melhor forma possível.</p>
+					
+					<div id="Separador_Esq_quemsomos">
+						
+						
+					</div>
+					<div id="Separador_Dir_quemsomos">
+						
+					</div>
+				</div>
+
+				<div id="Quemsomoszero" style="background-color: linear-gradient( #CCC,#BBB,#AAA);">
+					<p style=" font-family: Garamond;font-size: Calc( 1.8vh + 1.8vw ); color: black;"><b style="color: #996515;">Valores:</b> <br> Nossos valores consistem em três pilares: Organização, Confidencialidade e Dedicação. Em automações de dados, organização é primordial para garantir que as informações que entram, saiam somente da forma que o usuário desejar, portanto, nos dedicamos para deixar os processos da maneira que nossos parceiros sintam-se confiantes e confortáveis.</p>
+					<div id="Separador_Esq_quemsomos">
+						
+						
+					</div>
+					<div id="Separador_Dir_quemsomos">
+						<!-- <img src="Bulb1.png"> -->
+					</div>
+				</div>
+
+				<div id="Quemsomoszero">
+					<!--<h1 class="Quemsomos">Aqui teremos um carroussel</h1>-->
+					<form>
+
+							<input type="radio" name="fancy" value="clubs" id="clubs" />
+							<input type="radio" name="fancy" value="hearts" id="hearts" />
+							<input type="radio" name="fancy" value="spades" id="spades" />
+							<input type="radio" name="fancy" value="diamonds" id="diamonds" />			
+							<!--<label for="clubs">&#9827; Clubs</label><label for="hearts">&#9829; Hearts</label><label for="spades">&#9824; Spades</label><label for="diamonds">&#9830; Diamonds</label> -->
+							<label for="clubs"><img  src="Imagens/Logo1.png" style="margin-left: Calc( 2vh + 2vw );width: Calc( 10vh + 10vw );"><br>
+								<div id="Separador_Esq_carroussel"><img  src="Imagens/open4.png" style="margin-top: Calc( 1.5vh + 1.5vw ); width: Calc( 20vh + 20vw );margin-left: Calc( 12vh + 12vw );"></div>
+								<div id="Separador_Dir_carroussel">
+									<p class="carroussel" style=" margin-left: Calc( -10vh + -10vw ); margin-top: Calc( 11.5vh + 11.5vw );font-family: Garamond;font-size: Calc( 4vh + 4vw ); text-align:justify;">
+									<br>
+									OPEN RPA
+									</p>
+									
+								</div>
+							</label>
+							<label for="hearts"><img  src="Imagens/Logo1.png" style="width: 8vw; height: 9vh;"><br>
+								<div id="Separador_Esq_carroussel"><img  src="Imagens/Automate fundo Branco.png" style="width: 25vw; height: 33vh;"></div>
+								<div id="Separador_Dir_carroussel">
+									<p class="carroussel" style=" margin-left: -7%;font-family: Garamond;font-size:  1.3vw; text-align:justify;">
+									<br>
+									O Automate é uma das mais econômicas ferramentas de RPA do mercado, com uma <br>interface simples e amigável,
+									é uma ótima opção para usuários sem muita experiência,<br> por proporcionar organização de demandas
+									e escalabilidade para automações dos mais<br> diversos tipos, com sua gama completa e avançada de ações.
+									</p>
+								</div>
+							</label>
+							<label for="spades"><img  src="Imagens/Logo1.png" style="width: 8vw; height: 9vh;"><br>
+								<div id="Separador_Esq_carroussel"><img  src="Imagens/UIPATH1.png" style="width: 34vw; height: 28vh;"></div>
+								<div id="Separador_Dir_carroussel">
+									<p class="carroussel" style=" margin-left: -7%;font-family: Garamond;font-size:  1.3vw; text-align:justify;">
+									<br>
+									UiPath é um dos líderes de mercado de RPA, a ferramenta com o maior índice de <br> crescimento dos últimos tempos,
+									atingiu este patamar com uma avançada interface de <br>funcionalidades para automatização de tarefas simples às mais avançadas.
+									</p>
+								</div>
+							</label>
+							<label for="diamonds"><img  src="Imagens/Logo1.png" style="width: 8vw; height: 9vh;"><br>
+								<div id="Separador_Esq_carroussel"><img  src="Imagens/Automation-anywhere1.png" style="width: 34vw; height: 28vh;"></div>
+								<div id="Separador_Dir_carroussel">
+									<p class="carroussel" style=" margin-left: -7%;font-family: Garamond;font-size:  1.3vw; text-align:justify;">
+									<br>
+									O Automation Anywhere é uma das maiores tendências do mercado de RPA atualmente,<br>
+									além de ser uma plataforma de fácil manipulação, se destaca por ser completa e possuir <br>
+									diversas funcionalidades extras em um único lugar, como guias de auditoria,<br> cofres de dados 
+									e dashboards para rastreamento de resultados.<br>
+									</p>
+								</div>
+							</label>
+
+							<div class="keys" style="font-size: 1.5vw;">Use left and right keys to navigate</div>
+					</form>
+				</div>
+				
+			</div>
+			
+        </div>
+
+		<div id="Conteudo_rodape">
+			
+		</div>
+	</body>
+	</span>
+	</div>
 </html>
