@@ -507,10 +507,16 @@ margin-bottom: Calc( -1.6vh + -1.6vw );
 
 #Conteudo_Contatos_topo{
   background-color: #364248;
-  margin-top: -2.5vh;
-  width: Calc( 21vh + 21vw );
-  height: 70vh;
+ /* margin-top: -2.5vh;*/
+  width: Calc( 38vh + 38vw );
+  margin-left: Calc( 0vh + 0vw );
+  height: Calc( 80vh + 80vw );
   padding-top: 2vh;
+  margin-bottom: Calc( -4vh + -4vw );
+  flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 #Conteudo_contatos{
