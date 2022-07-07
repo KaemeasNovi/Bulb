@@ -14,6 +14,276 @@
     display: block;
   }
 }
+@media only screen and (min-device-width: 320px) {
+
+   .mobile_320 {
+    display: block;
+  }
+   .mobile_350 {
+    display: none;
+  }
+   .mobile_360 {
+    display: none;
+  }
+  .mobile_370 {
+    display: none;
+  }
+  .mobile_380 {
+    display: none;
+  }
+  .mobile_390 {
+    display: none;
+  }
+  .mobile_400 {
+    display: none;
+  }
+   .mobile_410 {
+    display: none;
+  }
+  .mobile_420 {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 350px) {
+
+    .mobile_320 {
+    display: none;
+  }
+   .mobile_350 {
+    display: block;
+  }
+   .mobile_360 {
+    display: none;
+  }
+  .mobile_370 {
+    display: none;
+  }
+  .mobile_380 {
+    display: none;
+  }
+  .mobile_390 {
+    display: none;
+  }
+  .mobile_400 {
+    display: none;
+  }
+   .mobile_410 {
+    display: none;
+  }
+  .mobile_420 {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 360px) {
+
+    .mobile_320 {
+    display: none;
+  }
+   .mobile_350 {
+    display: none;
+  }
+   .mobile_360 {
+    display: block;
+  }
+  .mobile_370 {
+    display: none;
+  }
+  .mobile_380 {
+    display: none;
+  }
+  .mobile_390 {
+    display: none;
+  }
+  .mobile_400 {
+    display: none;
+  }
+   .mobile_410 {
+    display: none;
+  }
+  .mobile_420 {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 370px) {
+
+    .mobile_320 {
+    display: none;
+  }
+  .mobile_350 {
+    display: none;
+  }
+   .mobile_360 {
+    display: none;
+  }
+  .mobile_370 {
+    display: block;
+  }
+  .mobile_380 {
+    display: none;
+  }
+  .mobile_390 {
+    display: none;
+  }
+  .mobile_400 {
+    display: none;
+  }
+   .mobile_410 {
+    display: none;
+  }
+  .mobile_420 {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 380px) {
+
+.mobile_320 {
+    display: none;
+  }
+ .mobile_350 {
+    display: none;
+  }
+   .mobile_360 {
+    display: none;
+  }
+  .mobile_370 {
+    display: none;
+  }
+  .mobile_380 {
+    display: block;
+  }
+  .mobile_390 {
+    display: none;
+  }
+  .mobile_400 {
+    display: none;
+  }
+   .mobile_410 {
+    display: none;
+  }
+  .mobile_420 {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 390px) {
+
+.mobile_320 {
+    display: none;
+  }
+  .mobile_350 {
+    display: none;
+  }
+   .mobile_360 {
+    display: none;
+  }
+  .mobile_370 {
+    display: none;
+  }
+  .mobile_380 {
+    display: none;
+  }
+  .mobile_390 {
+    display: block;
+  }
+  .mobile_400 {
+    display: none;
+  }
+   .mobile_410 {
+    display: none;
+  }
+  .mobile_420 {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 400px) {
+
+ .mobile_320 {
+    display: none;
+  }
+ .mobile_350 {
+    display: none;
+  }
+   .mobile_360 {
+    display: none;
+  }
+  .mobile_370 {
+    display: none;
+  }
+  .mobile_380 {
+    display: none;
+  }
+  .mobile_390 {
+    display: none;
+  }
+  .mobile_400 {
+    display: block;
+  }
+   .mobile_410 {
+    display: none;
+  }
+  .mobile_420 {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 410px) {
+
+ .mobile_320 {
+    display: none;
+  }
+ .mobile_350 {
+    display: none;
+  }
+   .mobile_360 {
+    display: none;
+  }
+  .mobile_370 {
+    display: none;
+  }
+  .mobile_380 {
+    display: none;
+  }
+  .mobile_390 {
+    display: none;
+  }
+  .mobile_400 {
+    display: none;
+  }
+  .mobile_410 {
+    display: block;
+  }
+  .mobile_420 {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 420px) {
+
+.mobile_320 {
+    display: none;
+  }
+ .mobile_350 {
+    display: none;
+  }
+   .mobile_360 {
+    display: none;
+  }
+  .mobile_370 {
+    display: none;
+  }
+  .mobile_380 {
+    display: none;
+  }
+  .mobile_390 {
+    display: none;
+  }
+  .mobile_400 {
+    display: none;
+  }
+  .mobile_410 {
+    display: none;
+  }
+  .mobile_420 {
+    display: block;
+  }
+}
 
 html{
   padding: 0 0;
@@ -356,13 +626,14 @@ a.botao_Quem_somos:hover{
 }
 #Conteudo_par_Vantagens_Titulo{
   width: Calc( 41.5vh + 41.5vw );
-  height:  59vh;
+  height:  Calc( 35vh + 35vw );
 margin-left: Calc( 0.3vh + 0.3vw );
   padding-top: 1%;
   border-left: -6%;
   border-radius: 5%;
   background-color: #EEEEEEEC;
 }
+
 #Conteudo_par_Vantagens_Icone{
   background: #EEEEEE;
   width: Calc( 10vh + 10vw );
@@ -825,7 +1096,7 @@ label {
   display: inline-block;
   min-height: 100%;
   width: Calc( 44vh + 44vw );
-  height: 20vh;
+  height: 80vh;
   position: relative;
   z-index: 1;
   text-align: center;
