@@ -422,7 +422,7 @@ background: #AAAAAA;
     
 
 }
-Conteudo_par_Titulo_Segmentos_inferior:hover{
+#Conteudo_par_Titulo_Segmentos_inferior:hover{
   border-radius: 10%;
 background: #AAAAAA;
 }
