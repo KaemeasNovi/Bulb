@@ -363,7 +363,7 @@ a.botao_Quem_somos:hover{
   text-decoration: underline;
 }
 #Conteudo_par_Vantagens_Titulo{
-  width: 80%;
+  width: 90%;
   top: 0;
   padding-top: 1%;
   border-left: -7%;
@@ -371,7 +371,7 @@ a.botao_Quem_somos:hover{
 }
 #Conteudo_par_Vantagens_Icone{
   background: #EEEEEE;
-  width: 4.3vw;
+  width: 4.1vw;
    height:8vh;
    margin-left: 45%;
    margin-bottom: 2%;
