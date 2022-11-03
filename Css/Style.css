@@ -319,7 +319,7 @@ p.Titulo{
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font: 'Mulish', sans-serif;;
   vertical-align: baseline;
   text-align: justify;
   text-justify: inter-word;
