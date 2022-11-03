@@ -628,6 +628,7 @@ a.botao_Quem_somos:hover{
   width: Calc( 41.5vh + 41.5vw );
   height:  Calc( 35vh + 35vw );
 margin-left: Calc( 0.3vh + 0.3vw );
+  font-family: 'Mulish', sans-serif;
   padding-top: 1%;
   border-left: -6%;
   border-radius: 5%;
