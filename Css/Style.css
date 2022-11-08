@@ -169,7 +169,7 @@ html, body {
 }
 p.Carroussel{
   text-align: left;
-  font-size: calc(0.30em + 0.5vw);
+  font-size: calc(0.5em + 0.1vw);
   color: white;
 }
 #Separador_Esq_carroussel{
