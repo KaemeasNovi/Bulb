@@ -158,7 +158,7 @@ html, body {
   text-align: left;
    /*background: #FFFFEE;*/
   /*background: linear-gradient(red, darkred);*/
-    font-size: calc(0.30em + 1vw);
+    font-size: calc(0.30em + 5vw);
     text-indent: 3ch;
   /* display: flex;
     flex-wrap: wrap;
