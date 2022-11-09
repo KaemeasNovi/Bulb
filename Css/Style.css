@@ -813,7 +813,7 @@ input:nth-of-type(4):checked ~ label {
 label {
   background: #444;
   background-size: cover;
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
 label[for="diamonds"],
