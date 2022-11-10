@@ -158,7 +158,7 @@ html, body {
   text-align: left;
    /*background: #FFFFEE;*/
   /*background: linear-gradient(red, darkred);*/
-    font-size: calc(0.4em + 0.5vw);
+    font-size: calc(0.4em + 0.3vw);
     text-indent: 3ch;
   /* display: flex;
     flex-wrap: wrap;
@@ -169,7 +169,7 @@ html, body {
 }
 p.Carroussel{
   text-align: left;
-  font-size: calc(0.4em + 0.5vw);
+  font-size: calc(0.4em + 0.3vw);
   color: white;
 }
 #Separador_Esq_carroussel{
