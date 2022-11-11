@@ -31,7 +31,8 @@ header{
 html, body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(red, darkred, black);
+  background: black;
+  /*background: linear-gradient(red, darkred, black);*/
 }
 
 #header-wrap.Barra_Menu{
