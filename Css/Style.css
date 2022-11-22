@@ -154,10 +154,10 @@ html, body {
   padding: 0 0  ;
   right:0;
   position:absolute;
-  width: 50%;
+  width: 20%;
   height:80%;
   text-align: left;
-   /*background: #FFFFEE;*/
+   background: #FFFFEE;
   /*background: linear-gradient(red, darkred);*/
     font-size: calc(0.480vh + 0.480vw);
     text-indent: 3ch;
