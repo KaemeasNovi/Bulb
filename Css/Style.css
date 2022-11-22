@@ -157,7 +157,7 @@ html, body {
   width: 50%;
   height:80%;
   text-align: left;
-   /*background: #FFFFEE;*/
+   background: #FFFFEE;
   /*background: linear-gradient(red, darkred);*/
     font-size: calc(0.480vh + 0.480vw);
     text-indent: 3ch;
