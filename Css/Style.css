@@ -152,7 +152,7 @@ html, body {
 }
 #Separador_Dir_carroussel{
   padding: 0 0  ;
-  right:0;
+  right:50%;
   position:absolute;
   width: 20%;
   height:80%;
