@@ -170,7 +170,7 @@ html, body {
 }
 p.Carroussel{
   text-align: left;
-  font-size: calc(0.480em + 0.480vw);
+  font-size: calc(0.480vh + 0.480vw);
   font-family:'Mulish', sans-serif;
   color: white;
 }
