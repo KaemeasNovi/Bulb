@@ -172,6 +172,7 @@ p.Carroussel{
   text-align: left;
   /*font-size: calc(0.480vh + 0.480vw);*/
   font-size: 1rem;
+  position:relative;
   font-family:'Mulish', sans-serif;
   color: white;
 }
