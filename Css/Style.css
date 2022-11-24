@@ -121,7 +121,7 @@ html, body {
     text-align: center;
 }
 #Separador_Dir_quemsomos{
-  padding: 0 0  ;
+  padding: calc(0.480vh + 0.480vw) calc(0.480vh + 0.480vw)  ;
   right:0;
   position:absolute;
   width: 50%;
