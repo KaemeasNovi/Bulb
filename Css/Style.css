@@ -58,7 +58,7 @@ html, body {
   margin: 0;
     top: 0;
     left: 0;
-    width: 100%;
+    width:  99vw;
     height:7%;
     z-index: 999 !important;
     /*background: #FFFFFF;*/}
