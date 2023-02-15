@@ -219,7 +219,7 @@ border-width: 0.02%;
 #Conteudo_zero{
   padding: 5px 0; 
   align-content: center;
-  width: 99vw;
+  width: 99.2vw;
 
     height:73.5vh;
     left: 0;
@@ -247,7 +247,7 @@ border-width: 0.02%;
 
 #Conteudo_Impar{
   padding: 5px 0; 
-  width: 99vw;
+  width: 99.2vw;
     height:70%;
     left: 0;
      background: linear-gradient(red, darkred);
