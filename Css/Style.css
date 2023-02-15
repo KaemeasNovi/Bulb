@@ -606,8 +606,8 @@ background: #AAAAAA;
     height:9%;
     z-index: 999 !important;
     /*background: #682E86;*/
-     /*background: red;*/
-    background: pink;
+     background: red;
+     /*background: pink;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -621,11 +621,11 @@ background: #AAAAAA;
     margin: 0;
     position: fixed;
     top: 0;
-    right: 2vw;
-    width: 48vw;
+    right: 0;
+    width: 50vw;
     height:9%;
     z-index: 999 !important;
-    background: blueviolet;
+    /*background: blueviolet;*/
     /*display: flex;*/
     float: right;
     /*: wrap;
