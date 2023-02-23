@@ -345,6 +345,7 @@ a.Limpo{
 a.Limpo:hover{
  color: white;
   background-color: unset;
+   text-decoration: unset;
 }
 a.botao{
   margin-top: 0.05%;
