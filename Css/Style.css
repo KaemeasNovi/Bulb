@@ -341,8 +341,10 @@ p.index{
 }
 a.Limpo{
 
-}a.Limpo:hover{
-
+}
+a.Limpo:hover{
+ color: white;
+  background-color: unset;
 }
 a.botao{
   margin-top: 0.05%;
