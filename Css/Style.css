@@ -360,6 +360,14 @@ a.botao:hover{
   background-color: darkred;
   text-decoration: underline;
 }
+a.botao_Herald{
+  margin-top: 0.05%;
+  margin-left: 30%;
+  background-color: Green;
+  width: 40%;
+  height: 10%;
+  color: Purple;
+}
 a.botao_Quem_somos{
   background-color: red;
  /* margin-top: 55%;*/ 
