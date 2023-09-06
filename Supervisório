@@ -1,1 +1,438 @@
-testeee
+<html>
+	<link href="../BULB/Css/Style.css" rel="stylesheet">
+	<link media="only screen and (max-device-width: 480px)" href="../BULB/Css/Style - mobile.css" type="text/css" rel="stylesheet" />
+
+	<head>
+	  <link rel="icon" type="image/png" href="../BULB/Imagens/icon.ico">
+	  <meta name="keywords" content="palavra1, frase um, palavra2, frase dois">
+	</head>
+	<div  id="header-wrap" class="fixed-header">
+		<!--<header>Teste</header>-->
+		<div class="Headerinterno">
+			<img  src="../BULB/Imagens/Logo1.png" style="height: 9vh;">
+			<!-- <ul class="list">
+			      <li><a href="../BULB/Index.html">Home</a></li>
+			      <li><a href="../BULB/Por que contratar.html">Beneficios do Rpa</a></li>
+			      <li><a href="../BULB/Quem Somos.html">Quem somos?</a></li>
+			      <li><a href="../BULB/Contatos.html">Contate-Nos</a></li>
+			    </ul> -->
+			<!--<h1>BULB</h1>-->
+			<!--<nav class="nav-horizontal">
+			  <div class="mask">
+			    
+			  </div>
+			</nav> -->
+		</div>	
+		<span class="desktop"><div  id="header-wrap" class="fixed-header_Menu">
+		<!--<header>Teste</header>-->
+			<div class="Headerinterno">
+				<ul class="list" style="font-family: 'Verdana';">
+				      <li><a href="../BULB/Index.html"><b>Home</b></a></li>
+				      <li><a href="../BULB/Por que contratar.html"><b>Sobre o RPA<b></a></li>
+				      <li><a href="../BULB/Quem Somos.html"><b>Quem Somos?</b></a></li>
+				      <li><a href="../BULB/Contatos.html"><b>Contate-Nos</b></a></li>
+				    </ul>
+				
+			</div>	
+		</div></span>
+		
+
+
+		<!--<div id="header-wrap" class="Barra_Menu">
+			<a href="C:/Users/novai/Desktop/BULB/Por que contratar.html">Beneficios do Rpa &nbsp;</a> <a href="C:/Users/novai/Desktop/BULB/Quem Somos.html">Quem somos?&nbsp;</a> <a href="C:/Users/novai/Desktop/BULB/Contatos.html">Contate-Nos&nbsp;</a>
+			
+		</div>--> 
+<span class="mobile">
+	
+            <div id="menuToggle">
+              <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            <ul id="menu">
+              <li><a class="Menu_botao" href="../BULB/Index.html">Home</a></li>
+              <li><a class="Menu_botao" href="../BULB/Por que contratar.html" style="margin-top: Calc( -10.5vh + -10.5vw)">Sobre o RPA</a></li>
+              <li><a class="Menu_botao" href="../BULB/Quem Somos.html" style="margin-top: Calc( -16vh + -16vw)">Quem Somos?</a></li>
+              <li><a class="Menu_botao" href="../BULB/Contatos.html" style="margin-top: Calc( -21.2vh + -21.2vw)">Contate-Nos</a></li>
+            </ul>
+           </div>
+          
+	</span>
+
+	</div>
+	<body>
+		<div id="header-wrap" class="Barra_Suavização">
+			
+		</div>
+		<span class="desktop">
+		<div id="Conteudo_zero" style="background-image: url('../BULB/Imagens/Vemelho1.png');background-position: center;background-repeat: no-repeat;background-size: cover;">
+			<div id="Logo_Index">
+				<img src="../BULB/Imagens/Indexlogo.png" style="  margin-left: -5%; height: 37vh; width: 33.2vw;">
+			</div>
+			<h1 style="margin-top: -3.5vh; font-family: 'Georgia'; font-size: 2.2vw;">Automação & Tecnologia</h1>
+			<p class="index" style="font-family: 'Lucida Sans Unicode';margin-top: -0.5%;font-size: 1.2vw;"><b>Com a Bulb, qualquer pessoa ou organização pode fazer parte do universo das automações. Fazendo uso de diversas tecnologias de forma integrada, proporcionamos melhorias de real valor agregado no dia-a-dia de nossos parceiros. <u>O avanço do amanhã começa hoje!</u></b></p>
+			<div id="Separador_Esq">
+				
+				
+			</div>
+			
+			<div id="Separador_Dir">
+				<a class="botao_Quem_somos" href="../BULB/Quem Somos.html" style="font-family: 'Verdana';"><b>QUEM SOMOS</b></a>
+			</div>
+			
+		</div>
+        </span>
+        <span class="mobile">
+		<div id="Conteudo_zero" style="background-image: url('../BULB/Imagens/Vemelho1.png');background-position: center;background-repeat: no-repeat;background-size: cover;">
+			<div id="Logo_Index">
+				<img src="../BULB/Imagens/Indexlogo.png" style="  margin-left: Calc( -13vh + -13vw ); width: Calc( 40vh + 40vw );">
+			</div>
+			<h1 style=" font-family: 'Georgia'; font-size: Calc( 1vh + 1vw );"></h1>
+			<p class="index" style="font-family: 'Lucida Sans Unicode';width: Calc( 40vh + 40vw ); margin-top: Calc( -1vh + -1vw ); font-size: Calc( 1.7vh + 1.7vw ); margin-left: Calc( 2vh + 2vw );"><b style=" font-family: 'Georgia'; font-size: Calc( 3vh + 3vw );margin-bottom: Calc( -5vh + -5vw );color: black; font-style: bold;"> Automação e Tecnologia</b><br><br><b>Com a Bulb, qualquer pessoa ou organização pode fazer parte do universo das automações. Fazendo uso de diversas tecnologias de forma integrada, proporcionamos melhorias de real valor agregado no dia-a-dia de nossos parceiros. <u>O avanço do amanhã começa hoje!</u></b></p>
+			<div id="Separador_Esq">
+				
+				
+			</div>
+			
+				<a class="botao_Quem_somos" href="../BULB/Quem Somos.html" style="font-family: 'Verdana';margin-left: Calc( -31vh + -31vw); width: Calc( 20vh + 20vw); height: Calc( 7vh + 7vw); margin-top: Calc( 25vh + 25vw);font-size: Calc( 2vh + 2vw);"><b>QUEM SOMOS</b></a>
+			
+		</div>
+        </span>
+        <span class="desktop">
+		<div id="Conteudo_zero">
+		  
+			<div id="Conteudo_par_Servicos1">
+				<div id="Conteudo_Par_Titulo_Serviços">
+					<div id="Titulo_Servicos" >
+						<span class="desktop">
+						<img src="../BULB/Imagens/prontos.png" style="width: 5vw;">
+						</span>
+						
+					</div>
+					<span class="desktop">
+					<p style="margin-top: -2vh;font-family: 'Lucida Sans Unicode'; text-align: justify;  color: black; letter-spacing: -10%; font-size: 0.85vw;"><b style="font-family: 'Verdana';text-align: center; margin-left: 3vw;color: red; font-size: 1.1vw;">ROBÔS PRONTOS</b><br> <br> Trabalhamos com o fornecimento de robôs pré desenvolvidos, para casos onde as demandas são comuns ao mercado e/ou a outros parceiros internos. Nestes casos, o levantamento das características e o desenvolvimento dos robôs fica mais ágil e prático. </p>
+					</span>
+					
+				</div>
+			</div>
+		 
+			<div id="Conteudo_par_Servicos2">
+				<div id="Conteudo_par_Titulo_Serviços">
+					<div id="Titulo_Servicos">
+						<span class="desktop">
+						<img src="../BULB/Imagens/inovacao.png" style="width: 50%;">
+						</span>
+						
+					</div>
+					<span class="desktop">
+					<p style="margin-top: -8vh;font-family: 'Lucida Sans Unicode'; text-align: justify;  color: black; letter-spacing: -10%; font-size: 0.85vw;"><b style="font-family: 'Verdana';text-align: center; margin-left: 2vw;color: red; font-size: 1.1vw;">ROBÔS SOB DEMANDA</b><br><br>Os robôs sob demandas são para casos específicos de cada parceiro, onde um mapeamento detalhado é necessário antes dos desenvolvimentos para entendimento do fluxo de ponta a ponta.</p>
+					</span>
+					
+				</div>
+			</div>
+			<div id="Conteudo_par_Servicos3">
+				<div id="Conteudo_par_Titulo_Serviços">
+					<div id="Titulo_Servicos">
+						<span class="desktop">
+						<img src="../BULB/Imagens/raas.png" style="width: 80%;">
+						</span>
+						
+					</div>
+					<span class="desktop">
+					<p style="margin-top: -5vh;font-family: 'Lucida Sans Unicode'; text-align: justify;  color: black; letter-spacing: -10%; font-size: 0.85vw;"><b style="font-family: 'Verdana';text-align: center; margin-left: 7vw;color: red; font-size: 1.1vw;">RAAS</b><br> <br>	Raas são robôs desenvolvidos para serem executados no ambiente da Bulb, são uma opção para parceiros que não possuem ambiente de execução ou preferem optar por não executar os fluxos em máquinas internas.</p>
+					</span>
+					
+				</div>
+			</div>
+			<div id="Conteudo_par_Servicos4">
+				<div id="Conteudo_par_Titulo_Serviços">
+					<div id="Titulo_Servicos">
+						<span class="desktop">
+						<img src="../BULB/Imagens/ferr1.png" style="width: 80%;">
+						</span>
+						
+					</div>
+					<span class="desktop">
+					<p style="margin-top: 1vh;font-family: 'Lucida Sans Unicode'; text-align: justify;  color: black; letter-spacing: -10%; font-size: 0.85vw;"><b style="font-family: 'Verdana';text-align: center; margin-left: 6vw;color: red; font-size: 1.1vw;">SUPORTE</b><br> <br>	A Bulb é uma das únicas empresas do mercado que presta suporte para robôs de diversos tipos de ferramentas de RPA, caso você tenha um parque de robôs ja desenvolvido e precise apenas de manutenções e/ou acompanhamento contínuo, também pode contar com a Bulb!</p>
+					</span>
+					
+				</div>
+			</div>
+		</div>
+		</span>
+		<span class="mobile">
+        <div id="Conteudo_zero">
+		  
+			<div id="Conteudo_par_Servicos1">
+				<div id="Conteudo_Par_Titulo_Serviços">
+					<div id="Titulo_Servicos" >
+						<span class="mobile">
+						<img src="../BULB/Imagens/prontos.png" style="width: Calc( 12vh + 12vw );">
+						</span>
+					</div>
+					
+					<span class="mobile">
+					<p style="margin-top: -1vh; padding: Calc( 1vh + 1vw ); font-family: 'Lucida Sans Unicode'; text-align: center;  color: #000000; letter-spacing: -10%; font-size: Calc( 2vh + 2vw );"><b style="font-family: 'Verdana';color: red; font-size: Calc( 2vh + 2vw );">ROBÔS PRONTOS</b><br> Trabalhamos com o fornecimento de robôs pré desenvolvidos, para casos onde as demandas são comuns ao mercado e/ou a outros parceiros internos. Nestes casos, o levantamento das características e o desenvolvimento dos robôs fica mais ágil e prático. </p>
+					</span>
+				</div>
+			</div>
+		 </div>
+		 <div id="Conteudo_zero" style=" background: #FFFF00;">
+			<div id="Conteudo_par_Servicos2">
+				<div id="Conteudo_par_Titulo_Serviços">
+					<div id="Titulo_Servicos">
+						<span class="mobile">
+						<img src="../BULB/Imagens/inovacao.png" style="width: Calc( 9.5vh + 9.5vw );">
+						</span>
+					</div>
+					
+					<span class="mobile">
+					<p style="margin-top: -3.2vh;padding: Calc( 1vh + 1vw );font-family: 'Lucida Sans Unicode'; text-align: center;  color: #000000; letter-spacing: -10%; font-size: Calc( 2.2vh + 2.2vw );"><b style="font-family: 'Verdana';color: red; font-size: Calc( 2vh + 2vw );">ROBÔS SOB DEMANDA</b><br>Os robôs sob demandas são para casos específicos de cada parceiro, onde um mapeamento detalhado é necessário antes dos desenvolvimentos para entendimento do fluxo de ponta a ponta.</p>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div id="Conteudo_zero">
+			<div id="Conteudo_par_Servicos3">
+				<div id="Conteudo_par_Titulo_Serviços">
+					<div id="Titulo_Servicos">	
+						<span class="mobile">
+						<img src="../BULB/Imagens/raas.png" style="width: Calc( 13.5vh + 13.5vw );">
+						</span>
+					</div>
+					
+					<span class="mobile">
+					<p style="margin-top: -4vh;padding: Calc( 2vh + 2vw );font-family: 'Lucida Sans Unicode'; text-align: center;  color: #000000; letter-spacing: -10%; font-size: Calc( 2.2vh + 2.2vw );"><br><b style="font-family: 'Verdana';color: red; font-size: Calc( 2.2vh + 2.2vw );">RAAS</b><br>	Raas são robôs desenvolvidos para serem executados no ambiente da Bulb, são uma opção para parceiros que não possuem ambiente de execução ou preferem optar por não executar os fluxos em máquinas internas.</p>
+					</span>
+				</div>
+			</div>
+		</div>	
+		<div id="Conteudo_zero"style=" background: #FFFF00;">
+			<div id="Conteudo_par_Servicos4">
+				<div id="Conteudo_par_Titulo_Serviços">
+					<div id="Titulo_Servicos">
+						<span class="mobile">
+						<img src="../BULB/Imagens/ferr1.png" style="width: Calc( 14vh + 14vw );">
+						</span>
+					</div>
+					
+					<span class="mobile">
+					<p style="margin-top: -1.5vh;padding: Calc( 1.8vh + 1.8vw );font-family: 'Lucida Sans Unicode'; text-align: center;  color: #000000; letter-spacing: -10%; font-size: Calc( 2.0vh + 2.0vw );"><br><b style="font-family: 'Verdana';color: red; font-size: Calc( 2.1vh + 2.1vw );">SUPORTE</b><br>	A Bulb é uma das únicas empresas do mercado que presta suporte para robôs de diversos tipos de ferramentas de RPA, caso você tenha um parque de robôs ja desenvolvido e precise apenas de manutenções e/ou acompanhamento contínuo, também pode contar com a Bulb!</p>
+					</span>
+				</div>
+			</div>
+		</div>
+        </span>
+
+		<span class="desktop">
+		<div id="Conteudo_par" style="height: 92vh;">
+			
+			<div id="Separador_Esq">
+				<div id="Conteudo_par_Titulo_Vantagens"> <p class="Titulo">
+					<div id="Conteudo_par_Vantagens_Titulo" style="font-size: 1vw; margin-top: Calc(-1vh + -1vw);"><div id="Conteudo_par_Vantagens_Icone"><img src="../BULB/Imagens/Agilidade.png" style="margin-top:10%;width: 3vw;"></div><b style="font-size: 1.1vw;font-family: 'Verdana';color: red; ">AGILIDADE: </b>
+                   Os robôs são desenvolvidos baseados em cálculos de economia de tempo por unidade de processamento, contúdo, as demandas automatizadas tornam-se mais ágeis do que as manuais</p></div>
+				</div>
+				<div id="Conteudo_par_Titulo_Vantagens"> <p class="Titulo">
+                   <div id="Conteudo_par_Vantagens_Titulo" style="font-size: 1vw;margin-top: Calc(-1vh + -1vw);"><div id="Conteudo_par_Vantagens_Icone"><img src="../BULB/Imagens/Dinamismo.png" style="margin-top:10%;width: 3vw;"></div><b style="font-size: 100%;font-family: 'Verdana';color: red;">DINAMISMO: </b>
+                   O dinamismo de uma automação passa pela capacidade do robô de realizar mais de uma tarefa em um fluxo cíclico, onde demandas em cadeia podem ser mapeadas para gerar uma saída a partir de várias entradas</p>
+                   	</div>
+				</div>
+				<div id="Conteudo_par_Titulo_Vantagens"> <p class="Titulo">
+                   <div id="Conteudo_par_Vantagens_Titulo" style="font-size: 1vw;margin-top: Calc(-1vh + -1vw);"><div id="Conteudo_par_Vantagens_Icone"><img src="../BULB/Imagens/Massa.png" style="margin-top:10%;width: 3vw;"></div><b style="font-size: 100%;font-family: 'Verdana';color: red; width: 30%;">PRODUÇÃO: </b>
+                   Com o uso de fluxos automatizados, o expediente de trabalho não tem fim... Os robôs podem ser executados para processamento de demandas massivas, liberando os funcionários humanos para outras tarefas que agregam real valor intelectual</p>
+                   	</div>
+				</div>
+				<div id="Conteudo_par_Titulo_Vantagens"> <p class="Titulo">
+                   <div id="Conteudo_par_Vantagens_Titulo" style="font-size: 1vw; margin-top: Calc(-1vh + -1vw); "><div id="Conteudo_par_Vantagens_Icone"><img src="../BULB/Imagens/Precisao.png"style="width: 3vw;"></div><b style="font-size: 100%;font-family: 'Verdana';color: red; width: 30%;">PRECISÃO: </b>
+                   Com um levantamento preciso das necessidades do fluxo, os robôs executam tarefas precisas durante toda a produção. Diferentemente de um humano, os robôs não sofrem com cansaso, estresse e outros fatores do tipo, podendo gerar do começo ao fim da execução, resultados no mesmo padrão</p>
+                   	</div>
+				</div>
+				
+			</div>
+			
+			<div id="Separador_Dir" style="padding-right: 2%;">
+				
+				<h1 style="font-family: 'Verdana'; font-size: 2.2vw;">Transformação Digital</h1>
+               <h2 style="font-family:'Lucida Sans Unicode'; text-align: justify; font-size:1.5vw;"> Utilize uma tecnologia acessível a todos para iniciar o avanço tecnológico da sua organização.
+                A automação começou no passado, faz parte do presente e é fundamental para o futuro!
+                Descubra como podemos contribuir com o seu progresso:</h2>
+                
+                	 <a class="botao" href="../BULB/Contatos.html" ><b>CONTATE-NOS!!!</b></a> 
+			</div>
+
+		</div>
+		</span>
+		<span class="mobile">
+		<div id="Conteudo_par">
+			
+			<div id="Separador_Esq">
+				<div id="Conteudo_par_Titulo_Vantagens"> <p class="Titulo" style="text-align: justify;">
+					<div id="Conteudo_par_Vantagens_Titulo" style="font-size: Calc( 2.5vh + 2.5vw );  margin-top: Calc( -4vh + -4vw ); padding-right: 2vw; padding-left: 5vw;text-align: left;"><div id="Conteudo_par_Vantagens_Icone"><img src="../BULB/Imagens/Agilidade.png" style="width: Calc( 10vh + 10vw);"></div><b style="font-size: Calc( 2.5vh + 2.5vw );font-family: 'Verdana';color: red; ">AGILIDADE: </b>
+                   Os robôs são desenvolvidos baseados em cálculos de economia de tempo por unidade de processamento, contúdo, as demandas automatizadas tornam-se mais ágeis do que as manuais.</p>
+                    </div>
+				</div>
+					<br><br>
+				<div id="Conteudo_par_Titulo_Vantagens"> <p class="Titulo">
+                   <div id="Conteudo_par_Vantagens_Titulo" style="font-size: Calc( 2.3vh + 2.3vw );margin-top: Calc( 20vh + 20vw );padding-right: 2vw; padding-left: 5vw;text-align: left;"><div id="Conteudo_par_Vantagens_Icone"><img src="../BULB/Imagens/Massa.png" style="width: Calc( 10vh + 10vw);"></div><b style="font-size: Calc( 2.3vh + 2.3vw );font-family: 'Verdana';color: red; ">PRODUÇÃO: </b>
+                   Com o uso de fluxos automatizados, o expediente de trabalho não tem fim... Os robôs podem ser executados para processamento de demandas massivas, liberando os funcionários humanos para outras tarefas que agregam real valor intelectual.</p>
+                   	</div>
+				</div>
+					<br><br>
+				<div id="Conteudo_par_Titulo_Vantagens"> <p class="Titulo">
+                   <div id="Conteudo_par_Vantagens_Titulo" style="font-size: Calc( 2.3vh + 2.3vw );margin-top: Calc( 44vh + 44vw );padding-right: 2vw; padding-left: 5vw;text-align: left;"><div id="Conteudo_par_Vantagens_Icone"><img src="../BULB/Imagens/Dinamismo.png"style="width: Calc( 10vh + 10vw);"></div><b style="font-size: Calc( 2.5vh + 2.5vw );font-family: 'Verdana';color: red; width: 30%;">DINAMISMO: </b>
+                   O dinamismo de uma automação passa pela capacidade do robô de realizar mais de uma tarefa em um fluxo cíclico, onde demandas em cadeia podem ser mapeadas para gerar uma saída a partir de várias entradas.</p>
+                   	</div>
+				</div>
+						<br><br>
+                   <div id="Conteudo_par_Titulo_Vantagens"> <p class="Titulo">
+                   <div id="Conteudo_par_Vantagens_Titulo" style="font-size: Calc( 2.3vh + 2.3vw );margin-top: Calc( 68vh + 68vw );padding-right: 2vw; padding-left: 5vw;text-align: left; height:  61vh;"><div id="Conteudo_par_Vantagens_Icone"><img src="../BULB/Imagens/Precisao.png"style="width: Calc( 10vh + 10vw);"></div><b style="font-size: Calc( 2.3vh + 2.3vw );font-family: 'Verdana';color: red;">PRECISÃO: </b>
+                   Com um levantamento preciso das necessidades do fluxo, os robôs executam tarefas precisas durante toda a produção. Diferentemente de um humano, os robôs não sofrem com cansaço, estresse e outros fatores do tipo, podendo gerar do começo ao fim da execução, resultados no mesmo padrão.</p>
+                   	</div>
+				</div>
+
+                   	<div id="Separador_Dir">
+                   		<span class="mobile_320"><h1 style="font-family: 'Verdana'; margin-top: Calc( -3.0vh + -3.0vw ); font-size: Calc( 3.0vh + 3.0vw ); color:red;">Transformação Digital</h1></span>
+                   		<span class="mobile_350"><h1 style="font-family: 'Verdana'; margin-top: Calc( -3.0vh + -3.0vw ); font-size: Calc( 3.0vh + 3.0vw ); color:red;">Transformação Digital</h1></span>
+    									<span class="mobile_360"><h1 style="font-family: 'Verdana'; margin-top: Calc( 3.0vh + 3.0vw ); font-size: Calc( 3.0vh + 3.0vw ); color:red;">Transformação Digital</h1></span>
+          						<span class="mobile_370"><h1 style="font-family: 'Verdana'; margin-top: Calc( 3.0vh + 3.0vw ); font-size: Calc( 3.0vh + 3.0vw ); color:red;">Transformação Digital</h1></span>
+    									<span class="mobile_380"><h1 style="font-family: 'Verdana'; margin-top: Calc( 3.0vh + 3.0vw ); font-size: Calc( 3.0vh + 3.0vw ); color:red;">Transformação Digital</h1></span>
+           						<span class="mobile_390"><h1 style="font-family: 'Verdana'; margin-top: Calc( 3.0vh + 3.0vw ); font-size: Calc( 3.0vh + 3.0vw ); color:red;">Transformação Digital</h1></span>
+   										<span class="mobile_400"><h1 style="font-family: 'Verdana'; margin-top: Calc( -3.0vh + -3.0vw ); font-size: Calc( 3.0vh + 3.0vw ); color:red;">Transformação Digital</h1></span>
+    									<span class="mobile_410"><h1 style="font-family: 'Verdana'; margin-top: Calc( 3.0vh + 3.0vw ); font-size: Calc( 3.0vh + 3.0vw ); color:red;">Transformação Digital</h1></span>
+   										<span class="mobile_420"><h1 style="font-family: 'Verdana'; margin-top: Calc( 3.0vh + 3.0vw ); font-size: Calc( 3.0vh + 3.0vw ); color:red;">Transformação Digital</h1></span>
+
+				
+               <h2 style="font-family:'Lucida Sans Unicode'; text-align: justify; font-size: Calc( 2vh + 2vw );margin-top: 0.5vh; font-style: bold;"> Utilize uma tecnologia acessível a todos para iniciar o avanço tecnológico da sua organização.
+                A automação começou no passado, faz parte do presente e é fundamental para o futuro!
+                <br><u>Descubra como podemos contribuir com o seu progresso:</u></h2>
+                <a class="botao" href="../BULB/Contatos.html" style="margin-left: Calc( 6.0vh + 6.0vw );width: Calc( 26.0vh + 26.0vw ); font-size: Calc( 1.8vh + 1.8vw ); height: Calc( 6.5vh + 6.5vw ); " ><b>CONTATE-NOS!!!</b></a>
+                	  		               
+				</div>
+				
+			</div>
+			
+			
+
+		</div>
+    
+		</span>
+		<span class="desktop">
+			<div id="Conteudo_zero" style="margin-top: -0.5%;">
+			<div id="Conteudo_par_Servicos1">
+				<div id="Conteudo_Par_Titulo_Segmentos_Suerior">
+					<h2 style="font-family: 'Verdana';font-size:1.55vw;">Logística</h2>
+					<img src="../BULB/Imagens/Transporte_y_Logistica1.png" style="margin-bottom: 5%; width: 90%;">
+				</div>
+				<div id="Conteudo_par_Titulo_Segmentos_inferior">
+					<h2  style="font-family: 'Verdana';font-size:1.55vw;">Industria</h2>
+					<img src="../BULB/Imagens/industria1.png" style="margin-bottom: 5%; width: 90%;">
+				</div>
+			</div>
+			<div id="Conteudo_par_Servicos2">
+				<div id="Conteudo_par_Titulo_Segmentos_Suerior">
+					<h2 style="font-family: 'Verdana';font-size:1.55vw;">Educação</h2>
+					<img src="../BULB/Imagens/educacao.png" style="margin-bottom: 5%; width: 90%;">
+				</div>
+				<div id="Conteudo_par_Titulo_Segmentos_inferior" >
+					<h2 style="font-family: 'Verdana';font-size:1.55vw;">Agronegócio</h2>
+					<img src="../BULB/Imagens/agronecocio1.png" style="margin-bottom: 5%; width: 90%;">
+				</div>
+			</div>
+			<div id="Conteudo_par_Servicos3">
+				<div id="Conteudo_par_Titulo_Segmentos_Suerior">
+					<h2 style="font-family: 'Verdana';font-size:1.55vw;">Finanças</h2>
+					<img src="../BULB/Imagens/Financeiro1.png" style="margin-bottom: 5%; width: 90%;">
+				</div>
+				<div id="Conteudo_par_Titulo_Segmentos_inferior">
+					<h2 style="font-family: 'Verdana';font-size:1.55vw;">Saúde</h2>
+					<img src="../BULB/Imagens/Saude1.png" style="margin-bottom: 5%; width: 90%;">
+				</div>
+			</div>
+			<div id="Conteudo_par_Servicos4">
+				<div id="Conteudo_par_Titulo_Segmentos_Suerior">
+					<h2 style="font-family: 'Verdana';font-size:1.55vw;">Jurídico</h2>
+					<img src="../BULB/Imagens/Juridico1.png" style="margin-bottom: 5%; width: 90%;">
+				</div>
+				<div id="Conteudo_par_Titulo_Segmentos_inferior">
+					<h2 style="font-family: 'Verdana'; font-size: 1.45vw;">Tecnologia & Pesquisa</h2>
+					<img src="../BULB/Imagens/Tec__Pesqu1.png" style="margin-bottom: 5%; width: 90%;">
+				</div>
+			</div>
+		</div>
+		<div id="Conteudo_par_Titulo_Final">
+		</div>
+		</span>
+
+		<span class="mobile">
+			<div id="Conteudo_zero" style=" height: Calc( 95vh + 95vw );width: Calc( 44vh + 44vw );margin-top: Calc( -27vh + -27vw ); ">
+			<div id="Conteudo_par_Servicos1"style="background-color: transparent; width: Calc( 20vh + 20vw ); margin-left: Calc( 1.60vh + 1.60vw );padding-left: 0;height: Calc( 50vh + 50vw )">
+				<div id="Conteudo_Par_Titulo_Segmentos_Suerior" style="width: Calc( 21vh + 21vw ); margin-left: Calc( -1vh + -1vw );margin-top: Calc( 6vh + 6vw );">
+					<h2 style="font-family: 'Verdana';font-size:Calc( 2vh + 2vw );">Logística</h2>
+					<img src="../BULB/Imagens/Transporte_y_Logistica1.png" style="margin-bottom: 5%; width: Calc( 20vh + 20vw ); margin-left: Calc( 0vh + 0vw );">
+				</div>
+				<div id="Conteudo_par_Titulo_Segmentos_inferior"style="width: Calc( 21vh + 21vw ); margin-left: Calc( -1vh + -1vw );margin-top: Calc( 1vh + 1vw );">
+					<h2  style="font-family: 'Verdana';font-size:Calc( 2vh + 2vw );">Industria</h2>
+					<img src="../BULB/Imagens/industria1.png" style="margin-bottom: 5%; width: Calc( 20vh + 20vw ); margin-left: Calc( 0vh + 0vw );">
+				</div>
+			</div>
+			<div id="Conteudo_par_Servicos2"style="background-color: transparent; width: Calc( 20vh + 20vw );height: Calc( 50vh + 50vw )">
+				<div id="Conteudo_par_Titulo_Segmentos_Suerior"style="width: Calc( 21vh + 21vw ); margin-left: Calc( 0vh + 0vw );margin-top: Calc( 6vh + 6vw );">
+					<h2 style="font-family: 'Verdana';font-size:Calc( 2vh + 2vw );">Educação</h2>
+					<img src="../Omega/Imagens/educacao.png" style="margin-bottom: 5%; width: 90%;">
+				</div>
+				<div id="Conteudo_par_Titulo_Segmentos_inferior" style="width: Calc( 21vh + 21vw ); margin-left: Calc( 0vh + 0vw );
+				margin-top: Calc( 1vh + 1vw );">
+					<h2 style="font-family: 'Verdana';font-size:Calc( 2vh + 2vw );">Agronegócio</h2>
+					<img src="../Omega/Imagens/agronecocio1.png" style="margin-bottom: 5%; width: Calc( 20vh + 20vw ); margin-left: Calc( 0vh + 0vw );">
+				</div>
+			</div>
+			<div id="Conteudo_par_Servicos3"style="background-color: transparent;width: Calc( 20vh + 20vw ); margin-left: Calc( 1.75vh + 1.75vw );">
+				<div id="Conteudo_par_Titulo_Segmentos_Suerior"style="width: Calc( 21vh + 21vw ); margin-left: Calc( -1vh + -1vw );
+				margin-top: Calc( 7vh + 7vw );">
+					<h2 style="font-family: 'Verdana';font-size:Calc( 2vh + 2vw );">Finanças</h2>
+					<img src="../Omega/Imagens/Financeiro1.png" style="margin-bottom: 5%; width: Calc( 20vh + 20vw ); margin-left: Calc( 0vh + 0vw );">
+				</div>
+				<div id="Conteudo_par_Titulo_Segmentos_inferior"style="width: Calc( 21vh + 21vw ); margin-left: Calc( -1vh + -1vw );
+				margin-top: Calc( 1vh + 1vw );">
+					<h2 style="font-family: 'Verdana';font-size:Calc( 2vh + 2vw );">Saúde</h2>
+					<img src="../Omega/Imagens/Saude1.png" style="margin-bottom: 5%; width: Calc( 20vh + 20vw ); margin-left: Calc( 0vh + 0vw );">
+				</div>
+			</div>
+			<div id="Conteudo_par_Servicos4"style="background-color: transparent; width: Calc( 20vh + 20vw )";>
+				<div id="Conteudo_par_Titulo_Segmentos_Suerior"style="width: Calc( 21vh + 21vw ); margin-left: Calc( 0vh + 0vw );
+				margin-top: Calc( 7vh + 7vw );">
+					<h2 style="font-family: 'Verdana';font-size:Calc( 2vh + 2vw );">Jurídico</h2>
+					<img src="../Omega/Imagens/Juridico1.png" style="margin-bottom: 5%; width: Calc( 20vh + 20vw ); margin-left: Calc( 0vh + 0vw );">
+				</div>
+				<div id="Conteudo_par_Titulo_Segmentos_inferior"style="width: Calc( 21vh + 21vw ); margin-left: Calc( 0vh + 0vw );
+				margin-top: Calc( 1vh + 1vw );">
+					<h2 style="font-family: 'Verdana'; font-size: Calc( 2vh + 2vw );">Pesquisa</h2>
+					<img src="../BULB/Imagens/Tec__Pesqu1.png" style="margin-bottom: 5%; width: Calc( 20vh + 20vw ); margin-left: Calc( 0vh + 0vw );">
+				</div>
+			</div>
+		</div>
+		<div id="Conteudo_par_Titulo_Final" style="width: Calc( 44vh + 44vw );">
+		</div>
+		</span>
+		<span class="desktop">
+		<!--<div id="Conteudo_Impar">
+			<h1>Invista em tecnologia da automação e multiplique seus resultados em mais de 500%</h1>
+		</div>  -->
+
+		<div id="Conteudo_rodape">
+			<br>
+			<h2 class="rodape">Linkedin: </h2><h3 class="rodape">https://www.linkedin.com/company/bulbautomacoes</h3><br>
+			<h2 class="rodape">Email: </h2><h3 class="rodape">contato@bulbautomacoes.com.br</h3><br>
+			
+		</div>
+		</span>
+		<span class="mobile">
+		<!--<div id="Conteudo_Impar">
+			<h1>Invista em tecnologia da automação e multiplique seus resultados em mais de 500%</h1>
+		</div>  -->
+		<div id="Conteudo_rodape">
+		</div>
+		</span>
+	</body>
+</html>
