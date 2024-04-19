@@ -641,7 +641,7 @@ background: #AAAAAA;
     width: 60vw;
     height:9%;
     z-index: 999 !important;
-    /*background: blueviolet;*/
+    background: blueviolet;
     /*display: flex;*/
     float: right;
     /*: wrap;
@@ -709,7 +709,7 @@ img.titulo{
     }
 
     a {
-      font-size: 1.2vw/*1.30vw*/;
+      font-size: 1.3vw/*1.30vw*/;
       font-family: 'Verdana';
       font-weight: bold;
       display: block;
