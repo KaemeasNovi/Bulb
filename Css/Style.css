@@ -709,7 +709,7 @@ img.titulo{
     }
 
     a {
-      font-size: 1.3vw/*1.30vw*/;
+      font-size: 1vw/*1.30vw*/;
       font-family: 'Verdana';
       font-weight: bold;
       display: block;
